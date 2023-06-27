@@ -1,6 +1,8 @@
 # -ORGANIZATIONAL-HIERARCHY-Of-a-Company
 Please read the "ass2.pdf" to understand the project in detail.
-public interface OrgHierarchy 
+
+public interface OrgHierarchy {
+
 public OrgHierarchy(); Initializes an empty organization 
 
 public boolean isEmpty(); Returns true if the organization is empty. 
@@ -31,5 +33,6 @@ outputs the ID of the employee A who is a boss of both id1 and id2, and
 among all such persons has the largest level. In other words, we want to find
 the common boss who is lowest in the hierarchy in the company. If one of the
 input ids is the owner, output -1 .
+
 }
 
